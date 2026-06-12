@@ -84,7 +84,7 @@ GIST_TOKEN = getenv('GIST_TOKEN')
 
 
 # keep alive ( web support )
-WEB_URL = getenv('WEB_URL', "https://t.me/ForRealAlone")
+WEB_URL = getenv('WEB_URL', "https://t.me/KRISH_HACKER_OWNER")
 
 KEEP_ALIVE = getenv('KEEP_ALIVE', 'True').lower() == 'true'
 PORT = int(os.environ.get("PORT", 8080))
@@ -98,17 +98,17 @@ BTN_ROWS = int(getenv('BTN_ROWS', '6'))
 
 
 # some media source
-PM_START_IMG = getenv('PM_START_IMG', "https://files.catbox.moe/1gxuh7.jpg")
+PM_START_IMG = getenv('PM_START_IMG', "https://files.catbox.moe/dsnnio.jpg")
 
-HELP_CMD_IMG = getenv('HELP_CMD_IMG', "https://files.catbox.moe/1gxuh7.jpg")
-
-
-HELP_MODULE_IMG = getenv('HELP_MODULE_IMG', "https://files.catbox.moe/1gxuh7.jpg")
-
-START_IMG = getenv('START_IMG', "https://files.catbox.moe/1gxuh7.jpg")
+HELP_CMD_IMG = getenv('HELP_CMD_IMG', "https://files.catbox.moe/dsnnio.jpg")
 
 
-FORCE_JOIN_IMG = getenv('FORCE_JOIN_IMG', "https://files.catbox.moe/1gxuh7.jpg")
+HELP_MODULE_IMG = getenv('HELP_MODULE_IMG', "https://files.catbox.moe/dsnnio.jpg")
+
+START_IMG = getenv('START_IMG', "https://files.catbox.moe/dsnnio.jpg")
+
+
+FORCE_JOIN_IMG = getenv('FORCE_JOIN_IMG', "https://files.catbox.moe/dsnnio.jpg")
 
 AF_START_STICKERS = [
   "CAACAgUAAxkBAAEBrV9nWukpft8gmtrZVMkbO4GKlZy0HQACWxUAAnHv2FZkjr7WjG3OjzYE",
