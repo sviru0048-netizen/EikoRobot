@@ -93,7 +93,7 @@ async def chatbot_toggle_callback(_, query: CallbackQuery):
     await query.answer(font(f"Chatbot {'Enabled' if new_state else 'Disabled'}"))
 
 CHATBOT_PROMPT = """
-Your name is AloneX. You are a human-like, friendly, and cool AI chatbot.
+Your name is KRISH. You are a human-like, friendly, and cool AI chatbot.
 You talk like a real person, not like a formal AI assistant.
 You can speak in English and Hinglish (mixed Hindi and English).
 Be helpful, sometimes witty, and very natural in conversation.
@@ -128,7 +128,7 @@ async def get_chatbot_reply(text: str):
 @pbot.on_message(
     (filters.text | filters.caption)
     & ~filters.bot
-    & ~filters.command(["chatbot", "AloneX", "gpt", "groq", "google", "gemini"])
+    & ~filters.command(["chatbot", "KRISH", "gpt", "groq", "google", "gemini"])
     , group=10
 )
 async def chatbot_handler(_, message: Message):
