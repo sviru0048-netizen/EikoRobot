@@ -38,13 +38,13 @@ ALONE_OWNER_ID = int(getenv("ALONE_OWNER_ID", "0"))
 # Chat id of a group for logging bot's activities
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "0"))
 
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/EikoUpdates")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/KRISH_HACKER_OP")
 
-START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/1gxuh7.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/dsnnio.jpg")
 
 
-SUPPORT_CHAT = getenv('SUPPORT_CHAT', 'EikoUpdates')
-UPDATE_CHANNEL = getenv('UPDATE_CHANNEL', 'EikoUpdates')
+SUPPORT_CHAT = getenv('SUPPORT_CHAT', 'KRISH_HACKER_OP')
+UPDATE_CHANNEL = getenv('UPDATE_CHANNEL', 'KRISH_HACKER_OP')
 
 _logs_channel = getenv('LOGS_CHANNEL') or getenv('LOG_GROUP_ID') or getenv('LOGGER_ID')
 if _logs_channel:
@@ -60,11 +60,11 @@ BOT_USERNAME = getenv('BOT_USERNAME', '@oxnybot')
 BOT_NAME = getenv('BOT_NAME', 'Eiko')
 IS_WEB_SUP = getenv('IS_WEB_SUP', 'True').lower() == 'true'
 
-SUDO_USERS = [int(x) for x in getenv("SUDO_USERS", "8458947967").split() if x.isdigit()]
-SUPPORT_USERS = [int(x) for x in getenv("SUPPORT_USERS", "8458947967").split() if x.isdigit()]
-WHITELIST_USERS = [int(x) for x in getenv("WHITELIST_USERS", "8458947967").split() if x.isdigit()]
-OWNER_ID = int(getenv("OWNER_ID", "8458947967"))
-DEV_LIST = [int(x) for x in getenv("DEV_LIST", "8458947967").split() if x.isdigit()]
+SUDO_USERS = [int(x) for x in getenv("SUDO_USERS", "7526566458").split() if x.isdigit()]
+SUPPORT_USERS = [int(x) for x in getenv("SUPPORT_USERS", "7526566458").split() if x.isdigit()]
+WHITELIST_USERS = [int(x) for x in getenv("WHITELIST_USERS", "7526566458").split() if x.isdigit()]
+OWNER_ID = int(getenv("OWNER_ID", "7526566458"))
+DEV_LIST = [int(x) for x in getenv("DEV_LIST", "7526566458").split() if x.isdigit()]
 
 SPAM_USERS = {}
 
