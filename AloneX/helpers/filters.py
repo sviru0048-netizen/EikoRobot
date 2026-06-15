@@ -14,7 +14,7 @@ class ReplyToBot(MessageFilter):
         (message.text and 
         ((message.from_user and reply and reply.from_user and reply.from_user.id == BOT_ID) 
         or search_text(BOT_USERNAME, message.text) 
-        or search_text("(@|#)AloneX", message.text)))
+        or search_text("(@|#)KRISH", message.text)))
         or message.sticker ) and message.chat.id in CHAT_IDS
   
         return result
