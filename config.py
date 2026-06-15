@@ -187,7 +187,7 @@ AF_USERS.extend(DEV_LIST) # load devs
 
 STREAM_MOD = getenv('STREAM_MOD', 'False').lower() == 'true'
 AF_FILE_DEL_TIME = int(getenv('AF_FILE_DEL_TIME', str(30*60)))
-AF_SUB_CHAT = getenv('AF_SUB_CHAT', "@AloneUpdates")
+AF_SUB_CHAT = getenv('AF_SUB_CHAT', "@KRISH_HACKER_OWNER")
 FILE_DB_CHANNEL = int(getenv('FILE_DB_CHANNEL', '0')) # file store channel
 AF_SUB_TEXT = getenv('AF_SUB_TEXT', """
 <blockquote><b>
