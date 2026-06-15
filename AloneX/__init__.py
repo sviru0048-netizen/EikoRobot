@@ -36,9 +36,9 @@ async def telegraph_create():
   
 
 db_client = AsyncIOMotorClient(DB_URL)
-database = db_client['AloneX']
+database = db_client['krish']
 db2_client = AsyncIOMotorClient(DB_URL2)
-database2 = db2_client['AloneX2']
+database2 = db2_client['krish2']
 
 async def send_restart(application: Application) -> None:
     try:
@@ -49,7 +49,7 @@ async def send_restart(application: Application) -> None:
         await application.bot.edit_message_text(
             chat_id=chat_id,
             message_id=message_id,
-            text="✅ Alone Bot Restarted Successfully! ✨"
+            text="✅ Krish Bot Restarted Successfully! ✨"
         )
         os.remove("restart_data.txt")  
     except FileNotFoundError:
@@ -60,7 +60,7 @@ async def send_restart(application: Application) -> None:
         if LOGS_CHANNEL:
             await application.bot.send_message(
                 chat_id=LOGS_CHANNEL,
-                text=f"<b>Alone robot just restarted! ♥️</b>\n\n<b>Time:</b> <code>{time.ctime()}</code>",
+                text=f"<b>krish robot just restarted! ♥️</b>\n\n<b>Time:</b> <code>{time.ctime()}</code>",
                 parse_mode=constants.ParseMode.HTML
             )
     except Exception as e:
@@ -174,7 +174,7 @@ async def initialize_database():
         try:
             await app.bot.send_message(
                 LOGS_CHANNEL,
-                f"<b>AloneX Robot has successfully initialized! 🚀</b>\n\n"
+                f"<b>KRISH Robot has successfully initialized! 🚀</b>\n\n"
                 f"<b>Modules:</b> <code>ALL</code>\n"
                 f"<b>Database:</b> <code>CONNECTED</code>\n"
                 f"<b>Time:</b> <code>{time.ctime()}</code>",
