@@ -45,7 +45,7 @@ async def lookup(ip: str):
                     f"**ISP**: {ip_info.get('isp', 'N/A')}\n"
                     f"**Organization**: {ip_info.get('org', 'N/A')}\n"
                     f"**AS**: {ip_info.get('as', 'N/A')}\n\n"
-                    f"**By {config.BOT_USERNAME}**"
+                    f"**By {config.BOT_USERNAME}@iwanthotpinkpussy"
                 )
                 return info
     except aiohttp.ClientError as e:
